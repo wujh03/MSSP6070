@@ -2,7 +2,7 @@ from pathlib import Path
 from git import Repo 
 
 #--- setup ---------------------------------------------------------------
-repo_path = Path("/workspaces/MSSP-607/")     # path to your local clone
+repo_path = Path("/workspaces/MSSP6070/")     # path to your local clone
 folder     = repo_path/"Assignments"   # folder you want to add
 commit_msg = "Add Weekly Examples folder with placeholder"
 
