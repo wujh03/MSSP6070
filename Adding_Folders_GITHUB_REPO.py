@@ -3,8 +3,8 @@ from git import Repo
 
 #--- setup ---------------------------------------------------------------
 repo_path = Path("/workspaces/MSSP6070/")     # path to your local clone
-folder     = repo_path/"Assignments"   # folder you want to add
-commit_msg = "Add Weekly Examples folder with placeholder"
+folder     = repo_path/"data"   # folder you want to add
+commit_msg = "Add folder with placeholder"
 
 # --- create the folder & placeholder -------------------------------------
 folder.mkdir(parents=True, exist_ok=True)
